@@ -1,9 +1,6 @@
-//dependencies
-
 const data = require("../lib/data");
 const generateID = require("../utils/generateID");
 
-//module scaffolding
 const controller = {};
 
 controller.getRandomUser = (req, res, next) => {
